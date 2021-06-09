@@ -4,7 +4,7 @@ import Breadcrumb from "elements/Breadcrumb";
 
 export default class Example extends Component {
   render() {
-    const breacrumb = [
+    const breadcrumb = [
       { pageTitle: "Home", pageHref: "" },
       { pageTitle: "House Details", pageHref: "" },
     ];
@@ -16,7 +16,7 @@ export default class Example extends Component {
           style={{ height: "100vh" }}
         >
           <div className="col-auto">
-            <Breadcrumb data={breacrumb} />
+            <Breadcrumb data={breadcrumb} />
           </div>
         </div>
       </div>
