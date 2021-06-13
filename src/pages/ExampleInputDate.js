@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { InputDate } from "elements/Form";
 
-export default class Example extends Component {
+export default class ExampleInputDate extends Component {
   state = {
     value: {
       startDate: new Date(),

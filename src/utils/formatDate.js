@@ -3,7 +3,7 @@ export default date => {
   const d = new Date(date);
   const dtf = new Intl.DateTimeFormat("en", {
     year: "numeric",
-    mont: "short",
+    month: "short",
     day: "2-digit",
   });
 
