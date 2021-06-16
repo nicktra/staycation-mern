@@ -50,7 +50,6 @@ export default function Number(props) {
           max={max}
           name={name}
           readOnly
-          pattern="[0-9]*"
           className="form-control"
           placeholder={placeholder ? placeholder : "0"}
           value={`${prefix}${value}${suffix}${isSuffixPlural && value > 1 ? "s": ""}`}
