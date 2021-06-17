@@ -30,7 +30,7 @@ export default function Text(props) {
     };
 
     if (type === "email") {
-      if (!pattern.text(event.target.value)) setHasError(errorResponse);
+      if (!pattern.test(event.target.value)) setHasError(errorResponse);
       else setHasError("");
     }
 
