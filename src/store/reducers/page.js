@@ -4,7 +4,7 @@ const initialState = {};
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default function (state = initialState, action) {
-  switch (key) {
+  switch (action.type) {
     case FETCH_PAGE:
       return {
         ...state,
@@ -12,6 +12,6 @@ export default function (state = initialState, action) {
       };
 
     default:
-      return;
+      return state;
   }
 }
