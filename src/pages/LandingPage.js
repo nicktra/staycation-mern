@@ -31,8 +31,6 @@ class LandingPage extends Component {
 
     if(!page.hasOwnProperty("landingPage")) return null
 
-    console.log(this.props);
-
     return (
       <>
         <Header {...this.props}></Header>
